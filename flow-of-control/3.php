@@ -17,6 +17,7 @@ while (true) {
     break;
 }
 
+
 $digits = count(str_split($number));
 $s = $digits > 1 ? "s" : "";
 echo "The number has $digits digit{$s}.\n";
