@@ -17,7 +17,7 @@ class FizzBuzz
     {
     }
 
-    public static function fizzBuzz(int $count): void
+    public static function fizzBuzz(int $count)
     {
         for ($i = 1; $i <= $count; $i++) {
             $fizz = $i % 3 === 0;
